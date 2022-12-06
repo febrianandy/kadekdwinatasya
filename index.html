@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sass/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Natasya | Portfolio</title>
+</head>
+<body>
+ <nav>
+  <div class="container">
+    <div class="logo">
+      <h3> <span> NaT </span></h3>
+    </div>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Contact</a></li>
+        <li><i class="ri-moon-clear-line light-mode"></i></li>
+        <a href="" class="resume">Resume</a>
+      </ul>
+      <div class="menu-toggle">
+        <i class="ri-menu-3-line"></i>
+      </div>
+    </div>
+ </nav>
+
+ <section class="hero">
+  
+  <div class="container">
+    <div class="social-media">
+      <ul>
+        <i class="ri-github-line"></i>
+        <i class="ri-twitter-line"></i>
+        <i class="ri-linkedin-line"></i>
+        <i class="ri-basketball-line"></i>
+      </ul>
+      <span class="line"></span>
+    </div>
+    <div class="intro-text">
+      <span>Hi'Im</span>
+      <h1>Kadek Dwi Natasya <br> I build things for the web.</h1>
+      <p>I’m a software engineer specializing in building <br> (and occasionally designing) exceptional digital experiences.  <br> Currently, I’m focused on building accessible, human-centered products at Upstatement.</p>
+      <a href="" class="btn">Dwonload Resume CV </a>
+    </div>
+  </div>
+  <div class="email">
+    <p>febyianandy@gmail.com</p>
+    <span class="line"></span>
+  </div>
+ </section>
+
+ <section class="about" data-aos="fade-top"
+ data-aos-offset="200"
+ data-aos-delay="0"
+ data-aos-duration="1000"
+ data-aos-easing="ease-in-out"
+ data-aos-mirror="true"
+ data-aos-once="false">
+  <div class="container">
+    <div class="about-content">
+      <div class="left"  
+ >
+        <h1> <span> 0.1 </span>About Me <span class="line"></span></h1>
+        <p>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
+        <p>Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences 
+        <p>Here are a few technologies I’ve been working with <span> recently:</span></p>
+      </div>
+      <div class="right"
+      >
+        <img src="img/my.jpg" alt="">
+      </div>
+    </div>
+  </div>
+ </section>
+
+ <section class="works" class="right"  data-aos="fade-top"
+ data-aos-offset="200"
+ data-aos-delay="0"
+ data-aos-duration="1000"
+ data-aos-easing="ease-in-out"
+ data-aos-mirror="true"
+ data-aos-once="false">
+  <div class="container">
+    <div class="work" >
+      <h1><span>02. </span>Where I’ve Worked <span class="line"></span></h1>
+      <div class="tab">
+        <ul class="sidebar">
+          <li><button onclick="openWork(event,'RUANG RAYA')" class="tab-link">RUANG RAYA</button></li>
+          <li><button onclick="openWork(event,'BUMI NALA')" class="tab-link">BUMI NALA</button></li>
+          <li> <button onclick="openWork(event,'RUANG GURU')" class="tab-link">Ruang Guru</button></li>
+        </ul>
+        <div class="tab-content">
+          <div id="RUANG RAYA" class="work-item" style="display:block">
+            <h2>PT RUANG RAYA</h2>
+            <span>14 Februari 2022 - juni 2022</span>
+            <p>London is the capital city of England.</p>
+            <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          </div>
+        
+          <div id="BUMI NALA" class="work-item" style="display:none">
+            <h2>BUMI NALA</h2>
+            <span>14 Februari 2022 - juni 2022</span>
+            <p>Paris is the capital of France.</p> 
+            <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+          </div>
+        
+          <div id="RUANG GURU" class="work-item" style="display:none">
+            <h2>RUANG GURU</h2>
+            <span>14 Februari 2022 - juni 2022</span>
+            <p>Tokyo is the capital of Japan.</p>
+            <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+
+
+ <section class="projects" data-aos="fade-top"
+ data-aos-offset="200"
+ data-aos-delay="0"
+ data-aos-duration="1000"
+ data-aos-easing="ease-in-out"
+ data-aos-mirror="true"
+ data-aos-once="false">
+  <div class="container">
+    <div class="project">
+      <h1><span>02. </span>Some Things I’ve Built <span class="line"></span></h1>
+      <div class="project-item">
+        <div class="project-img">
+          <img src="img/portofolio.png" alt="">
+        </div>
+        <div class="project-content">
+          <h2>Website Portfolio</h2>
+          <div class="action">
+            <span><i class="ri-macbook-line"></i> case study </span>
+            <span> <i class="ri-links-line"></i> visit link </span>
+          </div>
+       
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-img">
+          <img src="img/portofolio.png" alt="">
+        </div>
+        <div class="project-content">
+          <h2>Website Portfolio</h2>
+          <div class="action">
+            <span><i class="ri-macbook-line"></i> case study </span>
+            <span> <i class="ri-links-line"></i> visit link </span>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+
+
+
+
+ <section class="whats-next" data-aos="fade-top"
+ data-aos-offset="200"
+ data-aos-delay="0"
+ data-aos-duration="1000"
+ data-aos-easing="ease-in-out"
+ data-aos-mirror="true"
+ data-aos-once="false">
+  <div class="container">
+    <div class="next">
+      <h1><span>04. </span>What’s Next <span class="line"></span></h1>
+      <div class="next-content">
+          <h2>Get in touch</h2>
+          <p>Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+          <a href="" class="btn">Say Hello</a>
+      </div>
+    </div>
+  </div>
+ </section>
+
+
+
+
+ <footer>
+  <div class="container">
+    <p>
+      <a href="https://www.facebook.com/febyianandy" target="_blank"><i class="ri-facebook-fill"></i></a>
+      <a href="https://www.instagram.com/febyianandy/" target="_blank"><i class="ri-instagram-fill"></i></a>
+      <a href="https://twitter.com/febyianandy" target="_blank"><i class="ri-twitter-fill"></i></a>
+      <a href="https://www.linkedin.com/in/febyianandy/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+    </p>
+    <p>© 2021 febyianandy. All rights reserved.</p>
+  </div>
+ </footer>
+
+
+
+
+
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+   document.addEventListener('aos:in', ({ detail }) => {
+      console.log('animated in', detail);
+    });
+
+    document.addEventListener('aos:out', ({ detail }) => {
+      console.log('animated out', detail);
+    });
+ </script>
+ <script>
+  function openWork(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("work-item");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tab-link");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace("active", ""); 
+  }
+  
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+ 
+}
+ </script>
+</body>
+</html>
